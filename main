@@ -1,6 +1,0 @@
-#Segubot elaborado por Team ZUGUS 
- 
- from functions import *
- #Instrucción para crear el chatbot
- bot = create_bot('Segubot')
- 
