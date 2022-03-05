@@ -1,12 +1,12 @@
 #Chatbot elaborado por Team ZUGUS
 from functions import *
 #Se crea el chatbot  
-bot = create_bot('Segubot')
+chatbot = create_bot('Segubot')
 #Entrenamos al chatbot con los datos 
-train_all_data(bot)
+train_all_data(chatbot)
 #Agregamos los datos de nuestro chatbot 
-house_owner = [
+nd = [
 ]
-custom_train(bot, house_owner)
+custom_train(chatbot, house_owner)
 #inicializamos nuestro chatbot
 start_chatbot(bot)
